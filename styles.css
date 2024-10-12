@@ -1,0 +1,45 @@
+body {font-family: Impact, sans-serif;
+background:pink;
+}
+   .light {
+    text-shadow:#fffafa 0 0 10px; /* Свечение белого цвета */
+    color:#f06580;
+   }
+
+h1 {
+  font-size:70px ;
+}
+h1 {
+    text-align:center;
+}
+
+
+img { width: 200px; height: 150px; box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+
+transition: transform .3s ease-in-out; 
+}
+
+
+a:hover img {
+	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+
+
+a:hover #1, a:focus #1{
+	transform: scale(2.5) rotate(-6deg);
+}
+
+a:hover #ris2, a:focus #ris2{
+	transform: scale(2.5) rotate(8deg);
+}
+
+a:hover #ris3, a:focus #ris3{
+	transform: scale(2.5) rotate(-10deg);
+}
+
+a:hover #ris4, a:focus #ris4{
+	transform: scale(2.5) rotate(5deg);
+}
+
+			 {
+
